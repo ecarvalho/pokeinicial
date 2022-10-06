@@ -76,7 +76,7 @@ window.addEventListener('load', () => {
 
     console.log(selectedPokemon, twitchNameVal, answersResult, calcResult, bwVal, handVal, coinVal, eoVal, dnVal, seasonVal, dowVal, elementVal);
 
-    resultContent.innerHTML = `<img src="/static/img/sprites/${selectedPokemon.toLowerCase()}.jpg" \
+    resultContent.innerHTML = `<img src="static/img/sprites/${selectedPokemon.toLowerCase()}.jpg" \
       alt="${selectedPokemon}" class="img-fluid rounded p-4 border mb-2 shadow-sm" style="max-height: 200px;" />\
       <br /><h3>${selectedPokemon}</h3>`;
     
